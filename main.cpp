@@ -14,12 +14,12 @@ int main()
 
 
    while (guess != randomnumber){
-        cout << "Guess! ";
+        cout << "Enter the number of  your guess! ";
         cin >> guess; //taking input for the number guessed by the user
             if (guess < randomnumber) {
-                cout << "oops! - too low. Try again." << endl;
+                cout << "oops! - too low.You can  Try again." << endl;
             }else if (guess > randomnumber) {
-                cout << "Too high. Try again. "  << endl;
+                cout << "Too high.You can  Try again. "  << endl;
             }
         trial ++;
         }
